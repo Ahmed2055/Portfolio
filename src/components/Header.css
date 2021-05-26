@@ -1,0 +1,16 @@
+.header {
+  background-color: rgba(128, 127, 127, 0.5);
+  width: 85vw;
+  height: 6vh;
+  display: flex;
+  margin: 5vh auto;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.header__logo{
+    height: 9vh;
+    background-color: rgba(128, 127, 127, 0.0) ;
+    margin-left: 1.5vw;
+}

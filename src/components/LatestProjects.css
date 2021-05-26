@@ -1,0 +1,48 @@
+.latestProjects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.latestProjects__title {
+  color: rgb(0, 197, 251);
+  margin: 0 3px;
+  font-size: 56px;
+  font-weight: 800;
+  font-family: "Pattaya", sans-serif;
+}
+.projectDev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 6vh 2vw;
+}
+.project__title {
+  color: white;
+  margin: 0 3px;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: "Yellowtail", cursi;
+  margin-bottom: 8vh;
+}
+.projectTitle__link{
+  text-decoration: none;
+}
+.projectTitle__link:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.projectPics {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 3vw;
+  grid-auto-columns: 1;
+  grid-auto-rows: 1;
+  
+}
+.projectPic {
+  width: 33vw;
+  
+}
